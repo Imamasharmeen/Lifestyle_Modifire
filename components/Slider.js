@@ -45,12 +45,7 @@ export default function Slider() {
         </div>
 
         {/* Navigation Arrows */}
-        {/* <button
-          onClick={prevSlide}
-          className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-2 sm:p-3 rounded-full z-20"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button> */}
+        
         <button
           onClick={nextSlide}
           className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-2 sm:p-3 rounded-full z-20"
