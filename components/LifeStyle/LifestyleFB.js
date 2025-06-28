@@ -19,7 +19,7 @@ export default function LifestyleFB(){
 
   return (
     <div
-      className="fb-page"
+      className=" fb-page border border-gray-200 overflow-x-hidden"
       data-href={process.env.NEXT_PUBLIC_FB_PAGE_LINK}
       data-tabs="timeline"
       data-width=""
@@ -31,9 +31,9 @@ export default function LifestyleFB(){
     >
       <blockquote
         cite={process.env.NEXT_PUBLIC_FB_PAGE_LINK}
-        className="fb-xfbml-parse-ignore"
+        className="fb-xfbml-parse-ignore "
       >
-        <a href={process.env.NEXT_PUBLIC_FB_PAGE_LINK}>Pixel Genius Academy</a>
+        <a href={process.env.NEXT_PUBLIC_FB_PAGE_LINK}>Abdul KAIYUM</a>
       </blockquote>
     </div>
   );

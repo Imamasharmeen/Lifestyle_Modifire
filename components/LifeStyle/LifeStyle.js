@@ -3,9 +3,9 @@ import LifestyleContent from "./LifestyleContent";
 
 export default function Lifestyle() {
   return (
-    <section className=" border border-red-500">
-      <div className="sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto  border border-red-500">
-        <h2 className="text-4xl font-bangla  font-bold flex items-center justify-center">
+    <section className="mt-5 md:mt-10 lg:mt-16 ">
+      <div className="sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto  ">
+        <h2 className="text-xl md:text-2xl lg:text-4xl font-bangla  font-bold flex items-center justify-center">
           স্বাস্থ্যকর লাইফস্টাইল
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -17,11 +17,11 @@ export default function Lifestyle() {
           </svg>
         </h2>
 
-        <div className="lg:flex justify-between lg:gap-20 p-5 border border-gray-300 shadow-lg">
-         <div>
+        <div className="lg:flex justify-between lg:gap-20 border border-gray-300 shadow-lg md:mt-5 lg:mt-10 p-5">
+         <div className="w-full mx-auto lg:w-1/3 mb-5 lg:mb-0">
              <LifestyleFB />
          </div>
-          <div>
+          <div className="w-full mx-auto lg:w-2/3">
             <LifestyleContent />
           </div>
         </div>

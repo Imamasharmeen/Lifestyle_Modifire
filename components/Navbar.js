@@ -206,5 +206,3 @@ export default function Navbar() {
   );
 }
 
-// Tailwind btn class shortcut (you can use this via global class or just inline):
-// className="bg-blue-600 text-white px-3 py-1 rounded-md text-lg font-medium hover:bg-blue-700"

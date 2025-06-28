@@ -10,6 +10,7 @@ import Service from "@/components/Service";
 // import About from "@/components/About";
 import { useEffect, useState } from "react";
 import Lifestyle from "@/components/LifeStyle/LifeStyle";
+import Appointment from "@/components/Appointment";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,6 +43,7 @@ export default function Home() {
       <Hero />
       <Slider />
       <Lifestyle />
+      <Appointment/>
       <section id="service" className="scroll-mt-24">
         <Service />
       </section>
