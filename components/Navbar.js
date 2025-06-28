@@ -33,7 +33,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#seba"
+                href="#service"
                 className="hover:text-blue-600 transition-colors text-gray-700 dark:text-gray-200 cursor-pointer"
               >
                 সেবা

@@ -1,10 +1,11 @@
 "use client";
 
+import Hero from "@/components/Hero";
 import Image from "next/image";
-import Seba from "@/components/Seba";
-import Reviews from "@/components/Reviews";
-import Contact from "@/components/Contact";
-import About from "@/components/About";
+// import Service from "@/components/Service";
+// import Reviews from "@/components/Reviews";
+// import Contact from "@/components/Contact";
+// import About from "@/components/About";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -34,10 +35,15 @@ export default function Home() {
   };
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <section id="seba" className="scroll-mt-24">
-          <Seba />
+    <div>
+      <section id="service" className="scroll-mt-24">
+        <Hero />
+      </section>
+      <div className="w-full grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+          {/* 
+        <section id="service" className="scroll-mt-24">
+          <Service />
         </section>
         <section id="reviews" className="scroll-mt-24">
           <Reviews />
@@ -47,8 +53,9 @@ export default function Home() {
         </section>
         <section id="contact" className="scroll-mt-24">
           <Contact />
-        </section>
-      </main>
+        </section> */}
+        </main>
+      </div>
     </div>
   );
 }
