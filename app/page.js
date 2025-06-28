@@ -1,6 +1,8 @@
 "use client";
 
 import Hero from "@/components/Hero";
+import Slider from "@/components/Slider";
+
 import Image from "next/image";
 // import Service from "@/components/Service";
 // import Reviews from "@/components/Reviews";
@@ -38,6 +40,9 @@ export default function Home() {
     <div>
       <section id="service" className="scroll-mt-24">
         <Hero />
+      </section>
+       <section id="service" className="scroll-mt-24">
+        <Slider />
       </section>
       <div className="w-full grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
