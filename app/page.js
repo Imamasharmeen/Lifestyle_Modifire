@@ -13,6 +13,7 @@ import Lifestyle from "@/components/LifeStyle/LifeStyle";
 import Appointment from "@/components/Appointment";
 import Footer from "@/components/Footer";
 import Map from "@/components/Map";
+import Video from "@/components/Video";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -49,6 +50,7 @@ export default function Home() {
       <section id="service" className="scroll-mt-24">
         <Service />
       </section>
+      <Video/>
       <Map />
       <Footer/>
 
