@@ -5,7 +5,7 @@ import Slider from "@/components/Slider";
 
 import Image from "next/image";
 import Service from "@/components/Service";
-// import Reviews from "@/components/Reviews";
+import Reviews from "@/components/Reviews";
 // import Contact from "@/components/Contact";
 import About from "@/components/About";
 import { useEffect, useState } from "react";
@@ -14,6 +14,7 @@ import Appointment from "@/components/Appointment";
 import Footer from "@/components/Footer";
 import Map from "@/components/Map";
 import Video from "@/components/Video";
+import BMICalculator from "@/components/BMICalculator";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -47,19 +48,21 @@ export default function Home() {
       <Slider />
       <Lifestyle />
       <Appointment/>
+     <BMICalculator />
       <section id="service" className="scroll-mt-24">
         <Service />
       </section>
       <Video/>
+      <section id="reviews" className="scroll-mt-24">
+          <Reviews />
+      </section>
       <section id="about" className="scroll-mt-24">
           <About/>
         </section>
       <Map />
       <Footer/>
 
-      {/* <section id="reviews" className="scroll-mt-24">
-          <Reviews />
-        </section>
+      {/* 
         
         <section id="contact" className="scroll-mt-24">
           <Contact />
