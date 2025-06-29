@@ -19,7 +19,7 @@ export default function LifestyleFB(){
 
   return (
     <div
-      className=" fb-page border border-gray-200 overflow-x-hidden"
+      className="w-full fb-page border border-gray-200 overflow-x-hidden"
       data-href={process.env.NEXT_PUBLIC_FB_PAGE_LINK}
       data-tabs="timeline"
       data-width=""

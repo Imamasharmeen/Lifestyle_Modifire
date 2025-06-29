@@ -11,6 +11,8 @@ import Service from "@/components/Service";
 import { useEffect, useState } from "react";
 import Lifestyle from "@/components/LifeStyle/LifeStyle";
 import Appointment from "@/components/Appointment";
+import Footer from "@/components/Footer";
+import Map from "@/components/Map";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -47,6 +49,8 @@ export default function Home() {
       <section id="service" className="scroll-mt-24">
         <Service />
       </section>
+      <Map />
+      <Footer/>
 
       {/* <section id="reviews" className="scroll-mt-24">
           <Reviews />

@@ -18,10 +18,10 @@ export default function Lifestyle() {
         </h2>
 
         <div className="lg:flex justify-between lg:gap-20 border border-gray-300 shadow-lg md:mt-5 lg:mt-10 p-5">
-         <div className="w-full mx-auto lg:w-1/3 mb-5 lg:mb-0">
+         <div className=" w-1/3 mx-auto mb-5 lg:mb-0 border border-gray-300 ">
              <LifestyleFB />
          </div>
-          <div className="w-full mx-auto lg:w-2/3">
+          <div className="lg:w-2/3  mx-auto border border-gray-300 ">
             <LifestyleContent />
           </div>
         </div>

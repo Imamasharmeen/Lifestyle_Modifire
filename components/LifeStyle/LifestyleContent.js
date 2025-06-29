@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function LifestyleContent(){
   return (
-    <div className="lg:w-2/3 mx-auto font-bangla p-5  space-y-1.5 shadow-lg border border-gray-300">
+    <div className="w-full mx-auto font-bangla p-5  space-y-1.5 shadow-lg border border-gray-300">
       <h2 className="text-xl md:text-2xl lg:text-4xl font-bold font-bangla text-black dark:text-white">
         স্বাস্থ্যকর লাইফস্টাইল
       </h2>
