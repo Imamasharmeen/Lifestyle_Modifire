@@ -7,7 +7,7 @@ import Image from "next/image";
 import Service from "@/components/Service";
 // import Reviews from "@/components/Reviews";
 // import Contact from "@/components/Contact";
-// import About from "@/components/About";
+import About from "@/components/About";
 import { useEffect, useState } from "react";
 import Lifestyle from "@/components/LifeStyle/LifeStyle";
 import Appointment from "@/components/Appointment";
@@ -51,15 +51,16 @@ export default function Home() {
         <Service />
       </section>
       <Video/>
+      <section id="about" className="scroll-mt-24">
+          <About/>
+        </section>
       <Map />
       <Footer/>
 
       {/* <section id="reviews" className="scroll-mt-24">
           <Reviews />
         </section>
-        <section id="about" className="scroll-mt-24">
-          <About/>
-        </section>
+        
         <section id="contact" className="scroll-mt-24">
           <Contact />
         </section> */}

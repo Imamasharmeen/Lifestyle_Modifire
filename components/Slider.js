@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import {  ChevronRight } from "lucide-react";
 
 const images = ["/slider1.jpg", "/slider2.jpg", "/slider3.jpg"];
 
